@@ -1,0 +1,22 @@
+.container-about{
+    display: flex;
+    height: 82vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descript{
+    position: absolute;
+    top: 240px;
+    left: auto;
+}
+
+.descript-about{
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+.line{
+    text-decoration: line-through
+}

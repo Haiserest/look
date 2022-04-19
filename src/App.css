@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container-grid{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto minmax(400px, auto) auto;
+  grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+.nav-header{
+  grid-area: header;
+}
+
+.nav-main{
+  grid-area: main;
+}
+
+.nav-footer{
+  grid-area: footer;
 }

@@ -1,0 +1,16 @@
+.App-Footer{
+    display: flex;
+    /* position: relative; */
+    width: 100%;
+    justify-content: center;
+    background-color: #dadada;
+    
+}
+
+.footer-content{
+    margin: 20px;
+}
+
+.footer-item{
+    text-decoration: none;
+}
