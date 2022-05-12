@@ -1,0 +1,76 @@
+.multiform-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.multiform-bar{
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    margin: 30px 0px;
+    top: 20px;
+    left: 50%;
+    border-radius: 6px;
+    transform: translate(-50%);
+    background-color: #cccccc;
+}
+
+.process-bar{
+    width: 33.33%;
+    height: 100%;
+    background-color: rgb(223, 88, 26);
+}
+
+.multiform-box{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    margin: 30px 0px;
+    top: 50px;
+    left: 50%;
+    border-radius: 6px;
+    transform: translate(-50%);
+    background-color: #757575;
+    text-align: center;
+}
+
+.multiform-title{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.input-multipage{
+    width: 80%;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+.registdata-box{
+    padding-left: 15px;
+    text-align: start;
+    color: #ffff;
+}
+
+.multiform-btn{
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn-form{
+    width: 60px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin: 0px 10px;
+    cursor: pointer;
+}

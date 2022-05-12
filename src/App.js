@@ -8,6 +8,7 @@ import Page404 from './components/404/Page404'
 import AppFooter from './components/Footer/AppFooter'
 import AppLogin from './components/login/AppLogin'
 import AppRegister from './components/register/AppRegister'
+import MultiFormPage from './components/MultiForm/MultiPage'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/about" element={<PageAbout />} />
             <Route path="/login" element={<AppLogin />} />
             <Route path="/register" element={<AppRegister />} />
+            <Route path="/multiform" element={<MultiFormPage />} />
 
             {/* ============ page 404 ============= */}
 

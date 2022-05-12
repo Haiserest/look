@@ -11,6 +11,7 @@ function AppHeader(){
 
             <NavLink className={'header-item2'} to='register'>Register</NavLink>
             <NavLink className={'header-item2'} to='login'>Login</NavLink>
+            <NavLink className={'header-item2'} to='MultiForm'>MultiForm</NavLink>
         </header>
     );
 }

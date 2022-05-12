@@ -19,7 +19,7 @@ function AppRegister() {
   const onhandleChange = (event) => {
     event.preventDefault();
 
-    if (password != confirmPassword){
+    if (password !== confirmPassword){
         alert("Password Invalid");
     }
     else{
