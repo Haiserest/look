@@ -50,16 +50,22 @@ export default function MultiPageApp() {
 
   return (
     <div className="multiform-container">
+      
       {fin ? null : (
-        <div className="multiform-bar">
-          <div
-            className="process-bar"
-            style={{
-              width:
-                pageForm === 0 ? '33.33%' : pageForm === 1 ? '66.66%' : '100%',
-            }}
-          ></div>
-        </div>
+
+          <div className="multiform-bar">
+            <div className='process-checkpoint1'></div>
+            <div className='process-checkpoint2' style={{backgroundColor: pageForm >= 1 ? "#df581a" : "#cccccc"}}></div>
+            <div className='process-checkpoint3' style={{backgroundColor: pageForm === 2 ? "#df581a" : "#cccccc"}}></div>
+            <div
+              className="process-bar"
+              style={{
+                width:
+                  pageForm === 0 ? '0%' : pageForm === 1 ? '50%' : '100%',
+              }}
+            ></div>
+          </div>
+
       )}
       <div className="multiform-box">
         <p className="multiform-title">{fin ? 'Data' : FormTitles[pageForm]}</p>

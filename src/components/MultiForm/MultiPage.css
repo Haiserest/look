@@ -17,10 +17,37 @@
     background-color: #cccccc;
 }
 
+.process-checkpoint1, .process-checkpoint2, .process-checkpoint3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    transform: translate(-50%, -30%);
+    border-radius: 100%;
+    background-color: #cccccc;
+}
+
+.process-checkpoint1{
+    left: 0;
+    background-color: #df581a;
+}
+
+.process-checkpoint2{
+    left: 50%;
+    transition: ease-in background-color 1.5s;
+}
+
+.process-checkpoint3{
+    left: 100%;
+    transition: ease-in background-color 1.5s;
+}
+
 .process-bar{
     width: 33.33%;
     height: 100%;
-    background-color: rgb(223, 88, 26);
+    border-radius: 6px;
+    background-color: #df581a;
+    transition: width 0.5s;
 }
 
 .multiform-box{
